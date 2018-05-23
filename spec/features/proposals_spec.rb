@@ -12,6 +12,7 @@ feature 'Proposals' do
   context "Concerns" do
     it_behaves_like 'notifiable in-app', Proposal
     it_behaves_like 'relationable', Proposal
+    it_behaves_like 'commentable', Proposal
   end
 
   context 'Index' do
